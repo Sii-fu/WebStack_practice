@@ -4,9 +4,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-color: #414141;
 }
 
 .card {
+    margin: 10px;
     position: relative;
     overflow: visible;
     width: 190px;
@@ -68,6 +70,7 @@ body {
   
   .card:hover .content {
     transform: rotateY(180deg);
+    transition: 1s;
   }
   
   @keyframes rotation_481 {
